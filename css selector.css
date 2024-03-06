@@ -1,0 +1,58 @@
+<!--selectors:
+
+Selectors allow you to target specific elements on a webpage and apply styles to them -->
+
+<!--types of selectors:
+
+1.ID Based
+2.Class Based
+3.Universal based
+4.Grouping Based -->
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>SELECTORS</title>
+<style>
+
+h1,h2,h3 {
+          color:pink;  
+          }
+
+
+* {
+    border:2px solid black;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+p#selector {
+    color: green;
+    font-size: 22px;
+}
+
+p#selector1 {
+    color: yellow;
+    font-size: 30px;
+}
+
+p.selector2 {
+    color: blue;
+    font-size: 25px;  
+}     
+</style>
+</head>
+<body>
+<h1> grouping selector </h1>
+<h2> grouping selector2 </h2>
+<h3> grouping selector3 </h3>
+<p id="selector">This is id selector</p>
+<p id="selector2">This is another id selector</p>
+<p id="selector1">This is selector concept 1</p>
+<p class="selector2">This is selector concept.</p>
+<p>This is Universal selector concept.</p>
+</body>
+</html>

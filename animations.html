@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Animated Square</title>
+<style>
+  .square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation: moveSquare 2s ease infinite alternate; /* Animation shorthand */
+  }
+
+  @keyframes moveSquare {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: 200px;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="square"></div>
+</body>
+</html>
